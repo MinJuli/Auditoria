@@ -1,6 +1,6 @@
 a = int(input("Введите первое число: "))
 b = int(input("Введите второе число: "))
-c = input("Введите знак +, -, *, /: ")
+c = input("Введите знак +, -, *, /, % : )
 
 def calcul():
     if c == '+':print(a+b)
@@ -20,3 +20,5 @@ def calcul():
         else:
             print(a/b)
 
+    elif c == '%':
+        print(a%b)
